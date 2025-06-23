@@ -25,7 +25,7 @@ Users can drag clothing items (tops, bottoms, shoes) from a panel onto a canvas,
 
 ```bash
 git clone https://github.com/Shivanshom/outfit-builder.git
-cd outfit-maker
+cd outfit-builder
 ```
 
 2. **Install dependencies**
