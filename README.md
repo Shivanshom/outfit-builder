@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🧥 Outfit Builder – Drag-and-Drop Fashion App
 
-First, run the development server:
+A responsive, interactive outfit builder web app built using **Next.js**.  
+Users can drag clothing items (tops, bottoms, shoes) from a panel onto a canvas, mix & match combinations, and add completed outfits to a shopping cart.
+
+---
+
+## 🚀 Features
+
+- 🧲 **Drag-and-Drop Interface** powered by DnD Kit
+- 🧍 **Canvas to Compose Outfits** with zone-based drop restrictions
+- 👚 **Dynamic Clothing Panel** with categorized items (tops, bottoms, shoes)
+- ➕ **Add to Cart** logic with outfit validation
+- 🛒 **Cart Sidebar** to view all saved outfits with image previews
+- ❌ **Remove Individual Outfits** from cart
+- 🧼 **Responsive UI** for mobile and desktop
+- 📭 **Empty Cart State** with centered illustration
+
+---
+
+## 📦 Installation
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/Shivanshom/outfit-builder.git
+cd outfit-maker
+```
+
+2. **Install dependencies**
+
+```bash
+npm install
+# or
+yarn
+```
+
+---
+
+## ▶️ Running the App Locally
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open your browser at [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Additional Instructions
 
-## Learn More
+- Make sure to place any clothing images or icons in the `/public` directory if using custom images.
+- The cart resets on refresh .
+- This app is fully client-rendered using `'use client'` in all interactivity-driven files.
+- Cart is scoped globally via React Context.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✅ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js**
+- **React**
+- **DnD Kit** for drag-and-drop
+- **TypeScript**
+- **Custom CSS (inline styling) and tailwind**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🙌 Acknowledgments
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project was developed as part of an interactive drag-and-drop assignment for building a virtual outfit builder interface using Next.js by Shivansh Srivastava.
