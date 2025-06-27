@@ -25,7 +25,7 @@ Users can drag clothing items (tops, bottoms, shoes) from a panel onto a canvas,
 
 ```bash
 git clone https://github.com/Shivanshom/outfit-builder.git
-cd outfit-maker
+cd outfit-builder
 ```
 
 2. **Install dependencies**
@@ -66,9 +66,3 @@ Then open your browser at [http://localhost:3000](http://localhost:3000)
 - **DnD Kit** for drag-and-drop
 - **TypeScript**
 - **Custom CSS (inline styling) and tailwind**
-
----
-
-## 🙌 Acknowledgments
-
-This project was developed as part of an interactive drag-and-drop assignment for building a virtual outfit builder interface using Next.js by Shivansh Srivastava.
