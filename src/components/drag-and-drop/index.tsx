@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { DndContext, DragEndEvent, DragOverlay } from '@dnd-kit/core';
+import { DndContext, DragEndEvent, DragOverlay, DragStartEvent } from '@dnd-kit/core';
 import ClothingPanel from './ClothingPanel';
 import OutfitCanvas from './OutfitCanvas';
 import { DroppableZoneRefMap } from './DroppableZone';
@@ -10,7 +10,7 @@ const DragAndDropIndex: React.FC = () => {
     const [activeItem, setActiveItem] = useState<any>(null);
     const [isCartOpen, setIsCartOpen] = useState(false);
 
-    const handleDragStart = (event: any) => {
+    const handleDragStart = (event: DragStartEvent) => {
         const { active } = event;
         setActiveItem(active.data.current);
     };
@@ -42,7 +42,7 @@ const DragAndDropIndex: React.FC = () => {
                     alignItems: 'flex-start',
                     gap: '40px',
                     flexWrap: 'wrap',
-                    maxWidth: '1400px', // ✅ Prevents full stretch on wide screens
+                    maxWidth: '1400px', 
                     margin: '0 auto',
                 }}
             >

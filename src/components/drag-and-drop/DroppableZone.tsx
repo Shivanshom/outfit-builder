@@ -23,7 +23,7 @@ export type DroppableZoneHandler = {
 export const DroppableZoneRefMap: Record<string, DroppableZoneHandler> = {};
 
 const DroppableZone: React.FC<DroppableZoneProps> = ({ zoneId, acceptedType, label }) => {
-    const { isOver, setNodeRef, active } = useDroppable({
+    const { isOver, setNodeRef } = useDroppable({
         id: zoneId,
     });
 

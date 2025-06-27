@@ -47,7 +47,7 @@ const CartSidebar: React.FC<CartSidebarProps> = ({ isOpen, onClose }) => {
                     }}
                 >
                     <img
-                        src="/images/empty-cart.png" // 🔁 Replace with your actual image path or use an icon
+                        src="/images/empty-cart.png" 
                         alt="Empty Cart"
                         style={{
                             width: '120px',

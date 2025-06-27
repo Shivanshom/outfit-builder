@@ -35,7 +35,6 @@ const shoes: ClothingItem[] = [
     { id: 'shoes5', imageUrl: '/images/shoes/shoes5.png', itemType: 'shoes' },
 ];
 
-// 🔁 Group by type for clean rendering
 const clothingItemsByType: Record<'top' | 'bottom' | 'shoes', ClothingItem[]> = {
     top: tops,
     bottom: bottoms,
